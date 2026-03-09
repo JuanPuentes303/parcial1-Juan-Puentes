@@ -1,6 +1,6 @@
 function cambiarTexto() {
 
-    document.getElementById("descripcion").innerHTML = "Ahora estás viendo nuestras ofertas!"
+    document.getElementById("descripcion").style.fontFamily = "Arial"
 
 }
 
