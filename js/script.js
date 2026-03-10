@@ -31,7 +31,8 @@ function enviarFormulario() {
     let mensaje = document.getElementById("mensaje").value
     
 
-    alert("la informacion enviada es:"+ nombre+ edad+ genero+ direccion+ telefono+ correo+ mensaje);
+
+    alert("la informacion enviada es:"+ nombre+" "+ edad+ " "+ genero+ " "+ direccion+ " "+ telefono+ " "+ correo+ " "+ mensaje);
 
     console.log("Formulario enviado")
 
